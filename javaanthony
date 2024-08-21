@@ -1,0 +1,17 @@
+package anthony;
+
+import javax.swing.*;
+
+public class javaanthony {
+    public static void main(String[] args) {
+
+        String valor1 = JOptionPane.showInputDialog("Digite valor 1");
+        String valor2 = JOptionPane.showInputDialog("Digite valor 2");
+
+        double valor1ToDouble = Double.parseDouble(valor1);
+        double valor2ToDouble = Double.parseDouble(valor2);
+
+        double result = valor1ToDouble + valor2ToDouble;
+        System.out.println(result);
+    }
+}
